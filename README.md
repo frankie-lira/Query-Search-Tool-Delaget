@@ -13,20 +13,14 @@ Developed a Query Seearch Tool for Delaget. This is an React Single Page applica
 
 ## Delaget Sample API
 
-We used [**Parse**](https://parseplatform.org/) (hosted on [**Back4app**](https://www.back4app.com/)) as our backend to handle login/register from the iOS app and also the group chat capabilities between users.
-
-[**Yelp's Fusion API**](https://www.yelp.com/fusion) was used to gather data from businesses.
-
-
-### Network
-
-- `POST` /search – retrieve businesses from a given search query in SF
-
+We used the sample API with sample data: https://customsearchquerytoolapi.azurewebsites.net/index.html
+The API Contains: 
+1. A POST Endpoint which serves to search data using a specific input format.
+2. A GET Endpoint which serves to retrive metric defenitions
 
 ## Project Demo Features
 
 Below are the following features that are capable for the app:
-
 
 ### API Data Presentation + Animations
 
@@ -38,27 +32,17 @@ Below are the following features that are capable for the app:
 
 ### User Auth + Group Chat
 
-- Login/Logout
-- Messaging/Chatting capabilities
-- Save messages using [Parse Server](https://parseplatform.org/)
-	- <img src="https://imgur.com/vhH5dkG.gif" height=400>
-
-### MapKit + Image Upload
-
-- Show business in Map
-- Upload image to Map Pin
-	- <img src="https://imgur.com/Npz2m1A.gif" height=400>
-
+- Lets user enter specific data specifications using the input components
+- Allows users to be specific using the multi mertric feture
+- Retrives data in a table format
+- <img src="http://g.recordit.co/kZ2ilzIAMx.gif" height=400>
 
 ## Built With
 
-- [Yelp Fusion API](https://www.yelp.com/fusion)
-- [Lottie](https://airbnb.io/lottie/#/)
-- [SkeletonView](https://github.com/Juanpe/SkeletonView)
-- [Parse Server](https://parseplatform.org/)
-- [Heroku (hosting of Parse Server)](https://heroku.com)
-- Apple MapKit
-
+- [Semantic UI for React](https://react.semantic-ui.com/)
+- [Sample Data API](https://customsearchquerytoolapi.azurewebsites.net/index.html)
+- [Font Awesome Library](https://fontawesome.com/v5/docs/web/use-with/react)
+- [React Dates Library](https://github.com/react-dates/react-dates)
 
 ## Authors
 
