@@ -25,7 +25,7 @@ Below are the following features that are capable for the app:
 - Lets user enter specific data specifications using the input components
 - Allows users to be specific using the multi mertric feture
 - Retrives data in a table format
-- <img src="http://g.recordit.co/kZ2ilzIAMx.gif" height=600>
+<img src="http://g.recordit.co/kZ2ilzIAMx.gif" height=600>
 
 ## Built With
 
