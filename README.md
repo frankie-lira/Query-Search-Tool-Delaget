@@ -22,20 +22,10 @@ The API Contains:
 
 Below are the following features that are capable for the app:
 
-### API Data Presentation + Animations
-
-- Load data from Yelp API + Search Bar
-	- <img src="https://i.imgur.com/SEyigmC.gif" height=400>
-
-- Animations using [Lottie](https://airbnb.io/lottie/#/) and [SkeletonView](https://github.com/Juanpe/SkeletonView)
-	- <img src="https://imgur.com/EJGYjhl.gif" height=400>
-
-### User Auth + Group Chat
-
 - Lets user enter specific data specifications using the input components
 - Allows users to be specific using the multi mertric feture
 - Retrives data in a table format
-- <img src="http://g.recordit.co/kZ2ilzIAMx.gif" height=400>
+- <img src="http://g.recordit.co/kZ2ilzIAMx.gif" height=600>
 
 ## Built With
 
