@@ -392,6 +392,7 @@ export function SideBar() {
               <Button
                 icon
                 color="blue"
+                // id="neonShadow"
                 onClick={() => {
                   addMetrics();
                 }}
@@ -511,6 +512,8 @@ export function SideBar() {
           </div>
         )}
       </div>
+
+      {/* <button id="neonShadow"><span>Click me</span></button> */}
 
     </Container>
   );
