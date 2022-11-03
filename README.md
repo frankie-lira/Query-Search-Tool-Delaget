@@ -1,12 +1,10 @@
 # Query-Search-Tool-Delaget
 
-##### Tags: `ios` `yelp` `clone` `teach-ios` `Parse` `Back4App` `MongoDB` `CodePath`
-
-`Source`: [hackmd](https://hackmd.io/iTm3xVF1QqqBcjUoR0uh1Q)
+##### Tags: `React.js` `Semantic UI` `HTML` `CSS` `JavaScript` `API Data Processing` `Hooks` `Pagination`
 
 # Yelpy
 
-Developed a simple clone of Yelp app. This is an iOS (Swift) that integrates Yelp Fusion API, custom MongoDB + Parse backend server hosted on Back4App. This project is to demonstrate what it takes to make a simple clone of Yelp in the course of 6 weeks. 
+Developed a Query Seearch Tool for Delaget. This is an React Single Page application that integrates  API Data fetching using GET and POST Hook methods. It was created in a span of 3 months. 
 
 ## Table of Contents
 
@@ -42,33 +40,6 @@ We used [**Parse**](https://parseplatform.org/) (hosted on [**Back4app**](https:
 
 - `POST` /search – retrieve businesses from a given search query in SF
 
-
-
-## Database
-
-We used [**mongoDB**](https://www.mongodb.com/) and [**Parse server**](https://parseplatform.org/), hosted on [**Back4App**](https://www.back4app.com/) to manage our data for the application. This helps students focus more on how iOS works connecting to a database and not get distracted or overloaded with learning backend development. 
-
-### Schema
-
-Below is the database schema for our simple MongoDB (managed by parse and hosted by Heroku and Back4app).
-
-**User**
-
-| Name       | Type   | Descrpition                          |
-| ---------- | ------ | ------------------------------------ |
-| username   | string | n/a                                  |
-| password   | string | user password (hashed)               |
-| created_at | date   | when the user was created            |
-| updated_at | date   | when the user was *recently* updated |
-
-**Message**
-
-| Name       | Type           | Descrpition                             |
-| ---------- | -------------- | --------------------------------------- |
-| text       | string         | content of message                      |
-| user       | user (pointer) | user object reference                   |
-| created_at | date           | when the message was first sent         |
-| updated_at | date           | when the message was *recently* updated |
 
 ## Project Demo Features
 
