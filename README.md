@@ -2,25 +2,7 @@
 
 ##### Tags: `React.js` `Semantic UI` `HTML` `CSS` `JavaScript` `API Data Processing` `Hooks` `Pagination`
 
-# Yelpy
-
 Developed a Query Seearch Tool for Delaget. This is an React Single Page application that integrates  API Data fetching using GET and POST Hook methods. It was created in a span of 3 months. 
-
-## Table of Contents
-
-- [Yelpy](#yelpy)
-  - [Table of Contents](#table-of-contents)
-  - [Setup/Installation 🏗](#setupinstallation-)
-  - [Yelp API](#yelp-api)
-    - [Network](#network)
-  - [Database](#database)
-    - [Schema](#schema)
-  - [Project Demo Features](#project-demo-features)
-    - [API Data Presentation + Animations](#api-data-presentation--animations)
-    - [User Auth + Group Chat](#user-auth--group-chat)
-    - [MapKit + Image Upload](#mapkit--image-upload)
-  - [Built With](#built-with)
-  - [Authors](#authors)
 
 ## Setup/Installation 🏗
 
@@ -81,17 +63,4 @@ Below are the following features that are capable for the app:
 ## Authors
 
 - **Francisco Lira** - [Frankie-Lira](https://github.com/frankie-lira)
-  - Project Lead
-  - Initial design/planning
-  - MVC Architecture design + implementation
-  - Yelp API Integration
-  - Parse + MongoDB Integration
-  - Messaging/Chat feature
-  - Search capabilities
-  - MapKit Integration
-  - Image Upload capability
-  - AutoLayout
-  - Lottie Animation Integration
-  - SkeletonView Integration
-  - Messaging/Chat feature
  
