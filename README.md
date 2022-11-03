@@ -7,11 +7,11 @@ Developed a Query Seearch Tool for Delaget. This is an React Single Page applica
 ## Setup/Installation 🏗
 
 
-1. MacOS (for running Xcode)
-1. Download and install [Xcode](https://developer.apple.com/xcode/)
-1. Open `Yelpy.xcworkspace` and run it
+1. Intall Dependancies using the 'npm install' command
+2. Start react project using the 'npm start' command
+3. The project will then run locally using 'http://localhost:3000/'
 
-## Yelp API
+## Delaget Sample API
 
 We used [**Parse**](https://parseplatform.org/) (hosted on [**Back4app**](https://www.back4app.com/)) as our backend to handle login/register from the iOS app and also the group chat capabilities between users.
 
