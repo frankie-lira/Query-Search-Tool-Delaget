@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .fa {
+    color: #686868;
+  }
+  
+  .fa > span {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  hr {
+    border: 1px solid;
+  /*   height: 1px; */
+    color: #D8D8D8;
+  }
+  
+  .container {
+    margin: 1% 1%;
+  /*   height: 100vh; */
+    padding: 0;
+  /*   border: 1px red solid; */
+  }
+  
+  .filter {
+    background: #ffffff00;
+    margin: 10px;
+    padding:10px;
+    width: 300px;
+    border-radius: 8px;
+  }
+  
+  label[for="filter-input"] {
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: .9em;
+  }
+  
+  label[for="filter-checkbox"] {
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: .7em;
+  }
+  
+  .filter-input {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    margin: 4px 0 10px 0;
+    padding: 13px 6px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #A8A8A8;
+    border-radius: 3px;
+  }
+  
+  .filter-sort-container {
+    grid-template-columns: 20% auto;
+  }
+  
+  .filter-sort-label {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: .7em;
+  /*   border: 1px red solid; */
+  }
+  
+  .filter-sort-label span {
+    position: relative;
+    top: 25%;
+    transform: translateY(-50%); 
+  }
+  
+  .filter-sort-select {
+    font-family: Arial, sans-serif;
+    font-size: .7em;
+    /* width: 100%; */
+    margin: 5px 0;
+  /*   padding: 20px 6px; */
+    height: 30px;
+    width: 35px;
+  /*   display: inline-block; */
+  /*   box-sizing: border-box; */
+    border: 1px solid #A8A8A8;
+    border-radius: 2px;
+  }
+  .ilter-sort-input{
+    font-family: Arial, sans-serif;
+    font-size: .7em;
+    margin: 5px 0;
+    height: 30px;
+    width: 35px;
+    border: 1px solid #A8A8A8;
+    border-radius: 2px;
+    display: grid;
+
+  }
+  
+  .grid-container {
+    display: inline-flex;
+    grid-template-columns: 50% 50%;
+    
+
+  }
+  
+  .grid-container div:first-child {
+    margin-right: 5px;
+  }
+  
+  .grid-container div:last-child {
+    margin-left: 5px;
+  }
+
+  /*
+-------------------------
+BACKGROUND
+-------------------------
+*/
+.psuedo_bg{
+	background: #f9f9f9;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	width: 140px;
+}
+
+/*
+-------------------------
+INPUTS 
+-------------------------
+*/
+input.time_hour,
+input.time_min{
+	width: 36px;
+	font-size: 14px;
+	border: none;
+	background: transparent;
+	height: 32px;
+	padding: 4px 2px;
+	text-align: center;
+	margin: 0px;
+}
+
+/*
+-------------------------
+INPUTS WITHOUT SPINNER ARROWS 
+-------------------------
+*/
+input[type=number].time_input_secondary {
+	width: 30px;
+}
+.time_small {
+	width: 100%;
+  height: 40px;
+  padding: 4px 5px;
+  /* margin: 4px 0 10px 0;
+  padding: 13px 6px; */
+  display: inline-block;
+  box-sizing: border-sbox;
+  border: 1px solid #A8A8A8;
+  border-radius: 3px;
+}
+/*
+-------------------------
+HIDE SPINNER MIN_MAX ARROWS
+-------------------------
+*/
+input[type=number].time_input_secondary::-webkit-inner-spin-button, 
+input[type=number].time_input_secondary::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+}
+
+
+/*
+-------------------------
+SELECT
+-------------------------
+*/
+select.time_meridian {
+	background: transparent;
+	border: none;
+	font-size: 14px;
+	margin: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+input[type="text"] {
+  height: 30px;
+  width: 35px;
+  border: 2px solid #aaa;
+  border-radius: 2px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+
+
+input[type="text"]:focus {
+  border-color: rgb(255, 131, 8);
+  box-shadow: 0 0 8px 0 rgb(255, 131, 8);
+}
+
+hr.divider { 
+  margin-left: auto;
+        margin-right: auto;
+} 
